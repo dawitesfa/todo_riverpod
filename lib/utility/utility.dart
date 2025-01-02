@@ -1,3 +1,5 @@
+import 'package:uuid/uuid.dart';
+
 String capitalize({required String word}) {
   if (word.split(' ').length > 1) {
     return word;
@@ -7,3 +9,5 @@ String capitalize({required String word}) {
     return '';
   }
 }
+
+Uuid uuid = const Uuid();

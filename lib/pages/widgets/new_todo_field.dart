@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:todo_riv/mode/todo.dart';
+import 'package:todo_riv/model/todo.dart';
 import 'package:todo_riv/providers/todos_provider.dart';
 
 class NewTodoField extends ConsumerStatefulWidget {
@@ -22,6 +22,7 @@ class _NewTodoFieldState extends ConsumerState<NewTodoField> {
   @override
   Widget build(BuildContext context) {
     return TextField(
+      decoration: InputDecoration(hintText: 'New task'),
       controller: _todoDescController,
       onSubmitted: (String? desc) {
         if (desc == null || desc.isEmpty) return;

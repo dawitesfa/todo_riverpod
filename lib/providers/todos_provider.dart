@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:todo_riv/mode/todo.dart';
+import 'package:todo_riv/model/todo.dart';
 
 class TodosNotifier extends StateNotifier<List<Todo>> {
   TodosNotifier() : super([]);

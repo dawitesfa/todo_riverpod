@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:todo_riv/mode/todo.dart';
+import 'package:todo_riv/model/todo.dart';
 import 'package:todo_riv/providers/search_filter_provider.dart';
 import 'package:todo_riv/providers/todo_filter_provider.dart';
 import 'package:todo_riv/providers/todos_provider.dart';
